@@ -1,0 +1,905 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<SCRIPT type=text/javascript><!--
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("pre");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "pre") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("dd");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("pre").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "pre") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "pre") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("dd");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+    -->
+</SCRIPT>
+
+<STYLE>BODY {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+LI {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+P {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+DT {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+DD {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+DD {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt
+}
+TABLE.head {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+TH {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt; PADDING-TOP: 5px
+}
+TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 10pt; PADDING-TOP: 5px
+}
+H1 {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+H2 {
+	TEXT-DECORATION: none
+}
+.head_row {
+	BACKGROUND-COLOR: #f6f6f6
+}
+TABLE.head {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+TD.head {
+	BORDER-BOTTOM: #e4e4e4 0px solid; BORDER-LEFT: #e4e4e4 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt; BORDER-TOP: #e4e4e4 0px solid; BORDER-RIGHT: #e4e4e4 1px solid; PADDING-TOP: 5px
+}
+TH.head {
+	BORDER-BOTTOM: #e4e4e4 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e4e4e4 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 11pt; BORDER-TOP: #e4e4e4 0px solid; BORDER-RIGHT: #e4e4e4 1px solid; PADDING-TOP: 5px
+}
+.head_row {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.even_row {
+	BACKGROUND-COLOR: #f8f8f8
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.19400"></HEAD>
+<BODY oncontextmenu="return true">
+<TABLE>
+  <THEAD>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR></TR></TBODY></TABLE>
+      <HR>
+    </TD></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD><A name=Top>
+      <H1>Appalachian National Scenic Trail Centerline</H1>
+      <H2><FONT color=green>Metadata:</FONT> </H2>
+      <UL>
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Identification_Information">Identification 
+        Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Data_Quality_Information">Data 
+        Quality Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Spatial_Data_Organization_Information">Spatial 
+        Data Organization Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Spatial_Reference_Information">Spatial 
+        Reference Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Entity_and_Attribute_Information">Entity 
+        and Attribute Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#IDA4XH5V">Distribution 
+        Information</A> 
+        <LI><A 
+        href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Metadata_Reference_Information">Metadata 
+        Reference Information</A> </LI></UL><A name=Identification_Information 
+      xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Identification Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Citation:</I> 
+          <DD>
+          <DL>
+            <DT><I>Citation Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Originator: </I>National Park Service Appalachian Trail 
+              Park Office &amp; Appalachian Trail Conservancy 
+              <DT><I>Publication Date: </I>02/21/2013 
+              <DT><I>Publication Time: </I>15:27 
+              <DT><I>Title:</I> 
+              <DD>Appalachian National Scenic Trail Centerline 
+              <DT><I>Edition: </I>2013 
+              <DT><I>Geospatial Data Presentation Form: </I>vector digital data 
+              <DT><I>Series Information:</I> 
+              <DD>
+              <DL></DL>
+              <DT><I>Publication Information:</I> 
+              <DD>
+              <DL>
+                <DT><I>Publication Place: </I>Harpers Ferry, WV 
+                <DT><I>Publisher: </I>National Park Service Appalachian Trail 
+                Park Office &amp; Appalachian Trail Conservancy </DT></DL>
+              <DT><I>Online Linkage: </I><A 
+              href="http://www.appalachiantrail.org/" 
+              target=viewer>http://www.appalachiantrail.org/</A> 
+              <DT><I>Larger Work Citation:</I> 
+              <DD>
+              <DL>
+                <DT><I>Citation Information:</I> 
+                <DD>
+                <DL>
+                  <DT><I>Publication Date: </I>
+                  <DT><I>Title:</I> 
+                  <DD>
+                  <DT><I>Series Information:</I> 
+                  <DD>
+                  <DL></DL>
+                  <DT><I>Publication Information:</I> 
+                  <DD>
+                  <DL></DL></DD></DL></DD></DL></DD></DL></DD></DL>
+          <DT><I>Description:</I> 
+          <DD>
+          <DL>
+            <DIV>
+            <DT><I>Abstract:</I> <PRE id=original>This data set represents the most current depiction of the Appalachian National Scenic Trail centerline. 
+
+Locational information used to create this data set were obtained from Global Positioning Systems (GPS) survey data collected between 1999-2013 using mostly Trimble GPS equipment.</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+            </DT></DIV>
+            <DIV>
+            <DT><I>Purpose:</I> <PRE id=original>This data set was developed to provide a depiction of the Appalachian National Scenic Trail in an usable and easily transferable format between parties so that it can correctly be represented on digital and printed maps; to assist staff members, agency partners, and trail-maintaining clubs with trail and land management duties; and to help local planning agencies, telecommunications companies, and other groups with planning activities, such as siting new developments that could have a substantial impact on the scenic quality of the Appalachian Trail.</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+            </DT></DIV>
+            <DIV>
+            <DT><I>Supplemental Information:</I> <PRE id=original>The Appalachian National Scenic Trail is a footpath over 2,170 miles in length that traverses the Appalachian Mountains from Maine to Georgia. It passes through 14 states and approximately 241 jurisdictions, and links some 75 national and state parks and forests.  Virtually every mile is within easy access of a major population center and some portion of the trail is within a day's drive of 2/3rds of the U.S. population. 
+
+The idea for an Appalachian Trail was conceived by forester Benton MacKaye in 1921. In 1925, he formed the Appalachian Trail Conference (now called the Appalachian Trail Conservancy), a private not-for-profit organization whose mission is to protect, preserve, manage, and promote the Appalachian Trail. By 1937, an Appalachian Trail footpath was considered complete and open for all to enjoy. In 1968, Congress passed the National Scenic Trails Act that created a system of national scenic trails, starting with the Appalachian Trail and Pacific Crest Trail. 
+
+Today, the trail and its associated lands are managed by the National Park Service Appalachian Trail Park Office and Appalachian Trail Conservancy, in conjunction with 31 affiliated trail clubs and several other partners including the USDA Forest Service and numerous state park and state forest agencies.</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+            </DT></DIV></DL>
+          <DT><I>Time Period of Content:</I> 
+          <DD>
+          <DL>
+            <DT><I>Time Period Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Range of Dates/Times:</I> 
+              <DD>
+              <DL>
+                <DT><I>Beginning Date: </I>20010301 
+                <DT><I>Ending Date: </I>20130221 </DT></DL></DD></DL>
+            <DIV></DIV>
+            <DT><I>Currentness Reference:</I> <PRE id=original>publication date</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+
+            <DIV></DIV></DT></DL>
+          <DT><I>Status:</I> 
+          <DD>
+          <DL>
+            <DT><I>Progress: </I>Ongoing 
+            <DT><I>Maintenance and Update Frequency: </I>As needed </DT></DL>
+          <DT><I>Spatial Domain:</I> 
+          <DD>
+          <DL>
+            <DT><I>Bounding Coordinates:</I> 
+            <DD>
+            <DL>
+              <DT><I>West Bounding Coordinate: </I>914430.973260319 
+              <DT><I>East Bounding Coordinate: </I>2429764.87844915 
+              <DT><I>North Bounding Coordinate: </I>2843938.16089021 
+              <DT><I>South Bounding Coordinate: </I>1351603.78053734 
+            </DT></DL></DD></DL>
+          <DT><I>Keywords:</I> 
+          <DD>
+          <DL>
+            <DT><I>Theme:</I> 
+            <DD>
+            <DL>
+              <DT><I>Theme Keyword: </I>Appalachian National Scenic Trail 
+              <DT><I>Theme Keyword: </I>Appalachian Trail 
+              <DT><I>Theme Keyword: </I>A.T. National Scenic Trail 
+              <DT><I>Theme Keyword: </I>A.T. 
+              <DT><I>Theme Keyword: </I>AT 
+              <DT><I>Theme Keyword: </I>A.T. GPS 
+              <DT><I>Theme Keyword: </I>Appalachian Trail Centerline 
+              <DT><I>Theme Keyword: </I>A.T. Centerline </DT></DL>
+            <DT><I>Place:</I> 
+            <DD>
+            <DL>
+              <DT><I>Place Keyword: </I>Appalachian National Scenic Trail 
+              <DT><I>Place Keyword: </I>Appalachian Trail 
+              <DT><I>Place Keyword: </I>A.T. 
+              <DT><I>Place Keyword: </I>AT 
+              <DT><I>Place Keyword: </I>ME-GA 
+              <DT><I>Place Keyword: </I>ME 
+              <DT><I>Place Keyword: </I>NH 
+              <DT><I>Place Keyword: </I>VT 
+              <DT><I>Place Keyword: </I>MA 
+              <DT><I>Place Keyword: </I>CT 
+              <DT><I>Place Keyword: </I>NY 
+              <DT><I>Place Keyword: </I>NJ 
+              <DT><I>Place Keyword: </I>PA 
+              <DT><I>Place Keyword: </I>MD 
+              <DT><I>Place Keyword: </I>WV 
+              <DT><I>Place Keyword: </I>VA 
+              <DT><I>Place Keyword: </I>TN 
+              <DT><I>Place Keyword: </I>NC 
+              <DT><I>Place Keyword: </I>GA </DT></DL></DD></DL>
+          <DT><I>Access Constraints: </I>It is asked that proper citation 
+          (credit: National Park Service Appalachian Trail Park Office and 
+          Appalachian Trail Conservancy, 2013) be used on any materials (digital 
+          or printed) in which this information appears. 
+          <DIV></DIV>
+          <DT><I>Use Constraints:</I> <PRE id=original>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The National Park Service Appalachian Trail Park Office, Appalachian Trail Conservancy, other partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held responsible for use or misuse of this data. Please see the Distribution_Liability section for more detailed information.</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV>
+          <DT><I>Point of Contact:</I> 
+          <DD>
+          <DL>
+            <DT><I>Contact Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Contact Person Primary:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Person: </I>Matthew C. Robinson 
+                <DT><I>Contact Organization: </I>National Park Service 
+                Appalachian Trail Park Office </DT></DL>
+              <DT><I>Contact Position: </I>GIS Specialist 
+              <DT><I>Contact Address:</I> 
+              <DD>
+              <DL>
+                <DT><I>Address Type: </I>mailing address 
+                <DIV></DIV>
+                <DT><I>Address:</I> <PRE id=original>P.O. Box 50</PRE>
+                <SCRIPT>fix(original)</SCRIPT>
+
+                <DIV></DIV>
+                <DT><I>City: </I>Harpers Ferry 
+                <DT><I>State or Province: </I>West Virginia 
+                <DT><I>Postal Code: </I>25425 
+                <DT><I>Country: </I>USA </DT></DL>
+              <DT><I>Contact Voice Telephone: </I>(304) 535-6278 
+              <DT><I>Contact Facsimile Telephone: </I>(304) 535-6270 
+              <DT><I>Contact Electronic Mail Address: </I>Matt_Robinson@nps.gov 
+              <DT><I>Hours of Service: </I>9-5 EST </DT></DL></DD></DL>
+          <DIV></DIV>
+          <DT><I>Data Set Credit:</I> <PRE id=original>National Park Service Appalachian Trail Park Office and Appalachian Trail Conservancy</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV>
+          <DT><I>Native Data Set Environment:</I> 
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI 
+          ArcGIS 10.0.5.4400 </DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=Data_Quality_Information xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Data Quality Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Attribute Accuracy:</I> 
+          <DD>
+          <DL>
+            <DIV>
+            <DT><I>Attribute Accuracy Report:</I> <PRE id=original>All attributes associated with this data set were verified and should reflect the qualities of each portion of the data. Length (distance) information was calculated within the GIS though, so may not accurately reflect true distance values such as those calculated on the ground with a wheel or other measuring device. These values may also vary slightly throughout the data set, depending on the source data used to determine length.</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+            </DT></DIV></DL>
+          <DIV></DIV>
+          <DT><I>Logical Consistency Report:</I> <PRE id=original>Information within this data set are considered to be logically consistent, though no formal tests were performed.</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV>
+          <DIV></DIV>
+          <DT><I>Completeness Report:</I> <PRE id=original>The Appalachian National Scenic Trail centerline data was created from high accuracy Global Positioning System (GPS) data collected by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and Appalachian Trail Conservancy and National Park Service staff (2001-2013), using mainly Trimble GPS equipment, with some supplemental data from trail partners. All data are post-processed differently corrected where possible. As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV>
+          <DT><I>Positional Accuracy:</I> 
+          <DD>
+          <DL>
+            <DT><I>Horizontal Positional Accuracy:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Horizontal Positional Accuracy Report:</I> <PRE id=original>Data in this data set are based on centerline data collected mainly with Trimble GPS equipment and  post-process differentially corrected. While horizontal accuracy may vary slightly, the data is generally less than 5 meters accurate. All portions of the data meet National Mapping Standards of +/- 46.5 feet horizontal accuracy at a 95% confidence level.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV></DL>
+            <DT><I>Vertical Positional Accuracy:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Vertical Positional Accuracy Report:</I> <PRE id=original>Not available.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV></DL></DD></DL>
+          <DT><I>Lineage:</I> 
+          <DD>
+          <DL>
+            <DT><I>Source Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Source Citation:</I> 
+              <DD>
+              <DL>
+                <DT><I>Citation Information:</I> 
+                <DD>
+                <DL>
+                  <DT><I>Originator: </I>National Park Service Appalachian Trail 
+                  Park Office and Appalachian Trail Conservancy 
+                  <DT><I>Publication Date: </I>20130221 
+                  <DT><I>Title:</I> 
+                  <DD>Appalachian National Scenic Trail Centerline 
+                  <DT><I>Edition: </I>2013 
+                  <DT><I>Geospatial Data Presentation Form: </I>vector digital 
+                  data 
+                  <DT><I>Series Information:</I> 
+                  <DD>
+                  <DL></DL>
+                  <DT><I>Publication Information:</I> 
+                  <DD>
+                  <DL>
+                    <DT><I>Publication Place: </I>Harpers Ferry, WV 
+                    <DT><I>Publisher: </I>National Park Service Appalachian 
+                    Trail Park Office and Appalachian Trail Conservancy </DT></DL>
+                  <DT><I>Online Linkage: </I><A 
+                  href="http://www.appalachiantrail.org/" 
+                  target=viewer>http://www.appalachiantrail.org/</A> 
+                  <DT><I>Larger Work Citation:</I> 
+                  <DD>
+                  <DL>
+                    <DT><I>Citation Information:</I> 
+                    <DD>
+                    <DL>
+                      <DT><I>Publication Date: </I>
+                      <DT><I>Title:</I> 
+                      <DD>
+                      <DT><I>Series Information:</I> 
+                      <DD>
+                      <DL></DL>
+                      <DT><I>Publication Information:</I> 
+                      <DD>
+                      <DL></DL></DD></DL></DD></DL></DD></DL></DD></DL>
+              <DT><I>Source Scale Denominator: </I>1:5,000 
+              <DT><I>Type of Source Media: </I>CD-ROM 
+              <DT><I>Source Time Period of Content:</I> 
+              <DD>
+              <DL>
+                <DT><I>Time Period Information:</I> 
+                <DD>
+                <DL></DL>
+                <DT><I>Source Currentness Reference:</I> 
+                <DD>publication date </DD></DL>
+              <DT><I>Source Citation Abbreviation:</I> 
+              <DD>NPS APPA and ATC 
+              <DIV></DIV>
+              <DT><I>Source Contribution:</I> <PRE id=original>Information used in compiling this data set was collected and contributed by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and Appalachian Trail Conservancy and National Park Service staff (2001-2013), with some supplemental data from trail partners.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+
+              <DIV></DIV></DT></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>The Appalachian National Scenic Trail Centerline data was created from high accuracy Global Positioning System (GPS) data collected by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and Appalachian Trail Conservancy and National Park Service staff (2001-2013), using mainly Trimble GPS equipment, with some supplemental data collected by trail partners. All data are post-processed differently corrected where possible.
+
+As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Process Date: </I>20010301-20130221 
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL>
+                  <DT><I>Contact Person Primary:</I> 
+                  <DD>
+                  <DL>
+                    <DT><I>Contact Person: </I></DT></DL></DD></DL></DD></DL></DD></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>Metadata imported.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Source Used Citation Abbreviation:</I> 
+              <DD>G:\Temp\xml2CE.tmp 
+              <DT><I>Process Date: </I>
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL></DL></DD></DL></DD></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>Dataset copied.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Source Used Citation Abbreviation:</I> 
+              <DD>
+              <DT><I>Process Date: </I>
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL></DL></DD></DL></DD></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>Dataset copied.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Source Used Citation Abbreviation:</I> 
+              <DD>
+              <DT><I>Process Date: </I>
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL></DL></DD></DL></DD></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>Dataset copied.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Source Used Citation Abbreviation:</I> 
+              <DD>
+              <DT><I>Process Date: </I>20130220 16043500 
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL></DL></DD></DL></DD></DL>
+            <DT><I>Process Step:</I> 
+            <DD>
+            <DL>
+              <DIV>
+              <DT><I>Process Description:</I> <PRE id=original>Dataset copied.</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+              </DT></DIV>
+              <DT><I>Source Used Citation Abbreviation:</I> 
+              <DD>
+              <DT><I>Process Date: </I>20130220 16050200 
+              <DT><I>Process Contact:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Information:</I> 
+                <DD>
+                <DL></DL></DD></DL></DD></DL></DD></DL></DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=Spatial_Data_Organization_Information 
+      xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Spatial Data Organization Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Direct Spatial Reference Method: </I>Vector 
+          <DT><I>Point and Vector Object Information:</I> 
+          <DD>
+          <DL></DL></DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=Spatial_Reference_Information xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Spatial Reference Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Horizontal Coordinate System Definition:</I> 
+          <DD>
+          <DL>
+            <DT><I>Geographic:</I> 
+            <DD>
+            <DL>
+              <DT><I>Latitude Resolution: </I>0.000000 
+              <DT><I>Longitude Resolution: </I>0.000000 
+              <DT><I>Geographic Coordinate Units: </I>Decimal degrees </DT></DL>
+            <DT><I>Geodetic Model:</I> 
+            <DD>
+            <DL>
+              <DT><I>Horizontal Datum Name: </I>D_North_American_1983 
+              <DT><I>Ellipsoid Name: </I>GRS_1980 
+              <DT><I>Semi-major Axis: </I>6378137 
+              <DT><I>Denominator of Flattening Ratio: </I>298.257222 
+            </DT></DL></DD></DL></DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=Entity_and_Attribute_Information xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Entity and Attribute Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Detailed Description:</I> 
+          <DD>
+          <DL>
+            <DT><I>Entity Type:</I> 
+            <DD>
+            <DL>
+              <DT><I>Entity Type Label: </I>at_latest </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>FID 
+              <DIV></DIV>
+              <DT><I>Attribute Definition:</I> <PRE id=original>Internal feature number</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+
+              <DIV></DIV>
+              <DIV></DIV>
+              <DT><I>Attribute Definition Source:</I> <PRE id=original>ESRI</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+
+              <DIV></DIV>
+              <DT><I>Attribute Domain Values:</I> 
+              <DD>
+              <DL>
+                <DT><I>Unrepresentable Domain:</I> 
+                <DD>Sequential unique whole numbers that are automatically 
+                generated. </DD></DL></DD></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>Shape 
+              <DIV></DIV>
+              <DT><I>Attribute Definition:</I> <PRE id=original>Feature geometry</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+
+              <DIV></DIV>
+              <DIV></DIV>
+              <DT><I>Attribute Definition Source:</I> <PRE id=original>ESRI</PRE>
+              <SCRIPT>fix(original)</SCRIPT>
+
+              <DIV></DIV>
+              <DT><I>Attribute Domain Values:</I> 
+              <DD>
+              <DL>
+                <DT><I>Unrepresentable Domain:</I> 
+                <DD>Coordinates defining the features. </DD></DL></DD></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>STATUS </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>SURFACE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>SHARED_USE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>COMMENTS </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>MAX_PDOP </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>MAX_HDOP </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>CORR_TYPE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>RCVR_TYPE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_DATE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_TIME </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>UPDATE_STA </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>FEAT_NAME </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>DATAFILE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>UNFILT_POS </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>FILT_POS </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>DATA_DICTI </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_WEEK </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_SECOND </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_LENGTH </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>GPS_3DLENG </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>AVG_VERT_P </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>AVG_HORZ_P </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>WORST_VERT </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>WORST_HORZ </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>LINE_ID </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>NOTES </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>SOURCE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>CLUB </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>YEAR </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>ATC_REGION </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>SEQUENCE </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>2D_Miles </DT></DL>
+            <DT><I>Attribute:</I> 
+            <DD>
+            <DL>
+              <DT><I>Attribute Label: </I>2D_Feet 
+      </DT></DL></DD></DL></DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=IDA4XH5V xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Distribution Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Distributor:</I> 
+          <DD>
+          <DL>
+            <DT><I>Contact Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Contact Organization Primary:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Organization: </I>Appalachian National Scenic 
+                Trail 
+                <DT><I>Contact Person: </I>Matthew C. Robinson </DT></DL>
+              <DT><I>Contact Position: </I>GIS Specialist 
+              <DT><I>Contact Address:</I> 
+              <DD>
+              <DL>
+                <DT><I>Address Type: </I>mailing address 
+                <DIV></DIV>
+                <DT><I>Address:</I> <PRE id=original>P.O. Box 50</PRE>
+                <SCRIPT>fix(original)</SCRIPT>
+
+                <DIV></DIV>
+                <DT><I>City: </I>Harpers Ferry 
+                <DT><I>State or Province: </I>West Virginia 
+                <DT><I>Postal Code: </I>25425 
+                <DT><I>Country: </I>USA </DT></DL>
+              <DT><I>Contact Voice Telephone: </I>(304) 535-6278 
+              <DT><I>Contact Facsimile Telephone: </I>(304) 535-6270 
+              <DT><I>Contact Electronic Mail Address: </I>Matt_Robinson@nps.gov 
+              <DT><I>Hours of Service: </I>9-5 EST </DT></DL></DD></DL>
+          <DT><I>Resource Description: </I>This data set was developed to 
+          support the A.T. project and the mission and goals of the National 
+          Park Service Appalachian Trail Park Office and Appalachian Trail 
+          Conservancy. 
+          <DIV></DIV>
+          <DT><I>Distribution Liability:</I> <PRE id=original>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The National Park Service Appalachian Trail Park Office, Appalachian Trail Conservancy, other partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data are not legal documents and are not intended to be used as such. 
+
+The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent with the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. 
+
+The National Park Service and Appalachian Trail Conservancy give no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data be directly acquired from NPS or ATC and not indirectly through other sources that may have changed the data in some way. Although these data have been processed successfully on a computer system at both the National Park Service and Appalachian Trail Conservancy, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV>
+          <DT><I>Standard Order Process:</I> 
+          <DD>
+          <DL>
+            <DT><I>Digital Form:</I> 
+            <DD>
+            <DL>
+              <DT><I>Digital Transfer Information:</I> 
+              <DD>
+              <DL>
+                <DT><I>Transfer Size: </I>6.484 </DT></DL></DD></DL>
+            <DT><I>Fees: </I>None 
+            <DIV></DIV>
+            <DT><I>Ordering Instructions:</I> <PRE id=original>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</PRE>
+            <SCRIPT>fix(original)</SCRIPT>
+
+            <DIV></DIV></DT></DL>
+          <DIV></DIV>
+          <DT><I>Custom Order Process:</I> <PRE id=original>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</PRE>
+          <SCRIPT>fix(original)</SCRIPT>
+
+          <DIV></DIV></DT></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A><A name=Metadata_Reference_Information xmlns="">
+      <HR>
+      </A>
+      <DL xmlns="">
+        <DT><I>Metadata Reference Information:</I> 
+        <DD>
+        <DL>
+          <DT><I>Metadata Date: </I>20130220 
+          <DT><I>Metadata Review Date: </I>20130220 
+          <DT><I>Metadata Future Review Date: </I>on-going 
+          <DT><I>Metadata Contact:</I> 
+          <DD>
+          <DL>
+            <DT><I>Contact Information:</I> 
+            <DD>
+            <DL>
+              <DT><I>Contact Organization Primary:</I> 
+              <DD>
+              <DL>
+                <DT><I>Contact Organization: </I>National Park Service 
+                Appalachian Trail Park Office 
+                <DT><I>Contact Person: </I>Matthew C. Robinson </DT></DL>
+              <DT><I>Contact Position: </I>GIS Specialist 
+              <DT><I>Contact Address:</I> 
+              <DD>
+              <DL>
+                <DT><I>Address Type: </I>mailing address 
+                <DIV></DIV>
+                <DT><I>Address:</I> <PRE id=original>P.O. Box 50</PRE>
+                <SCRIPT>fix(original)</SCRIPT>
+
+                <DIV></DIV>
+                <DT><I>City: </I>Harpers Ferry 
+                <DT><I>State or Province: </I>West Virginia 
+                <DT><I>Postal Code: </I>25425 
+                <DT><I>Country: </I>USA </DT></DL>
+              <DT><I>Contact Voice Telephone: </I>(304) 535-6278 
+              <DT><I>Contact Facsimile Telephone: </I>(304) 535-6270 
+              <DT><I>Contact Electronic Mail Address: </I>Matt_Robinson@nps.gov 
+              <DT><I>Hours of Service: </I>9-5 EST </DT></DL></DD></DL>
+          <DT><I>Metadata Standard Name: </I>FGDC Content Standards for Digital 
+          Geospatial Metadata 
+          <DT><I>Metadata Standard Version: </I>FGDC-STD-001-1998 
+          <DT><I>Metadata Time Convention: </I>local time 
+          <DT><I>Metadata Access Constraints: </I>None 
+          <DT><I>Metadata Use Constraints:</I> 
+          <DD>None 
+          <DT><I>Metadata Security Information:</I> 
+          <DD>
+          <DL>
+            <DT><I>Metadata Security Classification System: </I>
+            <DT><I>Metadata Security Classification: </I>
+            <DT><I>Metadata Security Handling Description:</I> 
+            <DD></DD></DL>
+          <DT><I>Metadata Extensions:</I> 
+          <DD>
+          <DL>
+            <DT><I>Online Linkage: </I><A 
+            href="http://www.esri.com/metadata/esriprof80.html" 
+            target=viewer>http://www.esri.com/metadata/esriprof80.html</A> 
+            <DT><I>Profile Name: </I>ESRI Metadata Profile 
+      </DT></DL></DD></DL></DD></DL><A 
+      href="file:///C:/Documents%20and%20Settings/MRobinson/Local%20Settings/Temp/tmpA9F4.tmp.html#Top" 
+      xmlns="">Back to Top</A></TD></TR></TBODY></TABLE></BODY></HTML>
