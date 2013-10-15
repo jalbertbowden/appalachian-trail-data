@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Appalachian Trail Conservancy and National Park Service Appalachian Trail Park Office</origin>
+				<pubdate>20110211</pubdate>
+				<title>Parking along the Appalachian National Scenic Trail</title>
+				<edition>First</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Harpers Ferry, WV</pubplace>
+					<publish>Appalachian Trail Conservancy</publish>
+				</pubinfo>
+				<onlink>http://www.appalachiantrail.org/</onlink>
+				<ftname Sync="TRUE">at_parking</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set depicts parking areas along the Appalachian National Scenic Trail. It is not comprehensive, but represents all parking areas that we currently have on file. 
+
+Locational information used to create this data set were obtained from Global Positioning Systems (GPS) survey data collected between 1999-2010 using mostly Trimble GPS equipment.</abstract>
+			<purpose>This data set was developed to provide a depiction of parking areas along the Appalachian National Scenic Trail in an usable and easily transferable format between parties so that it can correctly be represented on digital and printed maps; to assist staff members, agency partners, and trail-maintaining clubs with trail and land management duties; and to help local planning agencies, telecommunications companies, and other groups with planning activities, such as siting new developments that could have a substantial impact on the scenic quality of the Appalachian Trail.</purpose>
+			<supplinf>The Appalachian National Scenic Trail is a footpath over 2,170 miles in length that traverses the Appalachian Mountains from Maine to Georgia. It passes through 14 states and approximately 241 jurisdictions, and links some 75 national and state parks and forests.  Virtually every mile is within easy access of a major population center and some portion of the trail is within a day's drive of 2/3rds of the U.S. population. 
+
+The idea for an Appalachian Trail was conceived by forester Benton MacKaye in 1921. In 1925, he formed the Appalachian Trail Conference (now called the Appalachian Trail Conservancy), a private not-for-profit organization whose mission is to protect, preserve, manage, and promote the Appalachian Trail. By 1937, an Appalachian Trail footpath was considered complete and open for all to enjoy. In 1968, Congress passed the National Scenic Trails Act that created a system of national scenic trails, starting with the Appalachian Trail and Pacific Crest Trail. 
+
+Though part of the national park system, the Appalachian Trail has largely remained managed by the Appalachian Trail Conservancy (formally called the Appalachian Trail Conference). This responsibility was formally delegated by the Department of the Interior in 1984. Today, the trail and its associated lands are managed by the Appalachian Trail Conservancy, its 31 affiliated trail clubs, and the National Park Service Appalachian Trail Park Office, in conjunction with several agency partners including the USDA Forest Service and numerous state park and state forest agencies.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20010301</begdate>
+					<enddate>20110211</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Ongoing</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-84.194996</westbc>
+				<eastbc Sync="TRUE">-68.961081</eastbc>
+				<northbc Sync="TRUE">45.890806</northbc>
+				<southbc Sync="TRUE">34.637738</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-84.194996</leftbc><rightbc Sync="TRUE">-68.961081</rightbc><bottombc Sync="TRUE">34.637738</bottombc><topbc Sync="TRUE">45.890806</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Appalachian National Scenic Trail Parking</themekey>
+				<themekey>Appalachian Trail Parking</themekey>
+				<themekey>A.T. National Scenic Trail Parking</themekey>
+				<themekey>A.T. Parking</themekey>
+				<themekey>AT Parking</themekey>
+				<themekey>A.T. GPS Parking</themekey>
+				<themekey>Appalachian Trail Parking Areas</themekey>
+			</theme>
+			<place>
+				<placekey>Appalachian National Scenic Trail</placekey>
+				<placekey>Appalachian Trail</placekey>
+				<placekey>A.T.</placekey>
+				<placekey>AT</placekey>
+				<placekey>ME-GA</placekey>
+				<placekey>ME</placekey>
+				<placekey>NH</placekey>
+				<placekey>VT</placekey>
+				<placekey>MA</placekey>
+				<placekey>CT</placekey>
+				<placekey>NY</placekey>
+				<placekey>NJ</placekey>
+				<placekey>PA</placekey>
+				<placekey>MD</placekey>
+				<placekey>WV</placekey>
+				<placekey>VA</placekey>
+				<placekey>TN</placekey>
+				<placekey>NC</placekey>
+				<placekey>GA</placekey>
+			</place>
+		</keywords>
+		<accconst>It is asked that proper citation (credit: Appalachian Trail Conservancy and National Park Service Appalachian Trail Park Office) be used on any materials (digital or printed) in which this information appears.</accconst>
+		<useconst>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The Appalachian Trail Conservancy, the National Park Service Appalachian Trail Park Office, agency partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held responsible for use or misuse of this data. Please see the Distribution_Liability section for more detailed information.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Matthew C. Robinson</cntper>
+					<cntorg>Appalachian National Scenic Trail</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 50</address>
+					<city>Harpers Ferry</city>
+					<state>West Virginia</state>
+					<postal>25425</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(304) 535-6278</cntvoice>
+				<cntfax>(304) 535-6270</cntfax>
+				<cntemail>Matt_Robinson@nps.gov</cntemail>
+				<hours>9-5 EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Appalachian Trail Conservancy and National Park Service Appalachian Trail Park Office</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+		</attracc>
+		<logic>Information within this data set are considered to be logically consistent, though no formal tests were performed.</logic>
+		<complete>The Appalachian National Scenic Trail parking data was created from high accuracy Global Positioning System (GPS) data collected by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and A.T. staff members (2001-2010), using Trimble GPS equipment, as well as some supplemental data from trail partners. 
+
+As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>All portions of the data meet National Mapping Standards of +/- 46.5 feet horizontal accuracy at a 95% confidence level.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Not available.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Appalachian Trail Conservancy and National Park Service Appalachian Trail Park Office</origin>
+						<pubdate>20101025</pubdate>
+						<title>Appalachian National Scenic Trail Centerline</title>
+						<edition>2010</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Harpers Ferry, WV</pubplace>
+							<publish>Appalachian Trail Conservancy</publish>
+						</pubinfo>
+						<onlink>http://www.appalachiantrail.org/</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>1:5,000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20010301</begdate>
+							<enddate>20101025</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ATC and NPS ATPO</srccitea>
+				<srccontr>Information used in compiling this data set was collected and contributed by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and A.T. staff members (2001-2010), with some supplemental data from trail partners.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The Appalachian National Scenic Trail parking data was created from high accuracy Global Positioning System (GPS) data collected by Dr. Vernon Vernier (1999-2003), Karl Hartzell and John Fletcher (2005), and A.T. staff members (2001-2010), using Trimble GPS equipment, as well as some supplemental data from trail partners. 
+
+As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</procdesc>
+				<procdate>20010301-20110211</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>G:\Temp\xml2CE.tmp</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+				<procdate>20110211</procdate>
+				<proctime>16043500</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+				<procdate>20110211</procdate>
+				<proctime>16050200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\MROBIN~1\LOCALS~1\Temp\xml38ED.tmp</srcused>
+				<procdate>20110411</procdate>
+				<proctime>14041000</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\MROBIN~1\LOCALS~1\Temp\xml707B.tmp</srcused>
+				<procdate>20110426</procdate>
+				<proctime>14461800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>B:\Data\Trail\Features\bridges.shp.xml</srcused>
+				<procdate>20110426</procdate>
+				<proctime>15054200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>B:\Data\Trail\Features\campsites.shp.xml</srcused>
+				<procdate>20110427</procdate>
+				<proctime>12110600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+				<procdate>20110506</procdate>
+				<proctime>10435200</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">B:\Data\Trail\Features\parking.xml</srcused><procdate Sync="TRUE">20110729</procdate><proctime Sync="TRUE">16113500</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="at_parking">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">452</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="at_parking"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">452</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="at_parking">
+			<enttyp>
+				<enttypl Sync="TRUE">at_parking</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">452</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Id</attrlabl>
+				<attalias Sync="TRUE">ID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Name (if known and it has one)</attrdef>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attrdef>Type of campsite</attrdef>
+				<attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>LOCATION</attrlabl>
+				<attalias Sync="TRUE">LOCATION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>SURFACE</attrlabl>
+				<attalias Sync="TRUE">SURFACE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">LENGTH_FE</attrlabl><attalias Sync="TRUE">LENGTH_FE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr>
+				<attrlabl>WIDTH__FEE</attrlabl>
+				<attalias Sync="TRUE">WIDTH__FEE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>PARKING_SP</attrlabl>
+				<attalias Sync="TRUE">PARKING_SP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>CULVERT</attrlabl>
+				<attalias Sync="TRUE">CULVERT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>USE</attrlabl>
+				<attalias Sync="TRUE">USE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>YEAR_BUILT</attrlabl>
+				<attrdef>Year Built</attrdef>
+				<attalias Sync="TRUE">YEAR_BUILT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>OWNERSHIP</attrlabl>
+				<attalias Sync="TRUE">OWNERSHIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>GATE</attrlabl>
+				<attalias Sync="TRUE">GATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>GATE_KEY__</attrlabl>
+				<attalias Sync="TRUE">GATE_KEY__</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>BULLETIN_B</attrlabl>
+				<attalias Sync="TRUE">BULLETIN_B</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>TOILET</attrlabl>
+				<attalias Sync="TRUE">TOILET</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>COMMENTS</attrlabl>
+				<attrdef>Comments</attrdef>
+				<attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>MAX_PDOP</attrlabl>
+				<attalias Sync="TRUE">MAX_PDOP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>MAX_HDOP</attrlabl>
+				<attalias Sync="TRUE">MAX_HDOP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>CORR_TYPE</attrlabl>
+				<attalias Sync="TRUE">CORR_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>RCVR_TYPE</attrlabl>
+				<attalias Sync="TRUE">RCVR_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>GPS_DATE</attrlabl>
+				<attalias Sync="TRUE">GPS_DATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>GPS_TIME</attrlabl>
+				<attalias Sync="TRUE">GPS_TIME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>UPDATE_STA</attrlabl>
+				<attalias Sync="TRUE">UPDATE_STA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>FEAT_NAME</attrlabl>
+				<attalias Sync="TRUE">FEAT_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>DATAFILE</attrlabl>
+				<attalias Sync="TRUE">DATAFILE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>UNFILT_POS</attrlabl>
+				<attalias Sync="TRUE">UNFILT_POS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>FILT_POS</attrlabl>
+				<attalias Sync="TRUE">FILT_POS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>DATA_DICTI</attrlabl>
+				<attalias Sync="TRUE">DATA_DICTI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>GPS_WEEK</attrlabl>
+				<attalias Sync="TRUE">GPS_WEEK</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl>GPS_SECOND</attrlabl>
+				<attalias Sync="TRUE">GPS_SECOND</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>GPS_HEIGHT</attrlabl>
+				<attalias Sync="TRUE">GPS_HEIGHT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>VERT_PREC</attrlabl>
+				<attalias Sync="TRUE">VERT_PREC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>HORZ_PREC</attrlabl>
+				<attalias Sync="TRUE">HORZ_PREC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>STD_DEV</attrlabl>
+				<attalias Sync="TRUE">STD_DEV</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>LATITUDE</attrlabl>
+				<attalias Sync="TRUE">LATITUDE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>LONGITUDE</attrlabl>
+				<attalias Sync="TRUE">LONGITUDE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>TRAIL_ID</attrlabl>
+				<attalias Sync="TRUE">TRAIL_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl>SOURCE</attrlabl>
+				<attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>ORIG_ID</attrlabl>
+				<attalias Sync="TRUE">ORIG_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl>FMSS_ID</attrlabl>
+				<attalias Sync="TRUE">FMSS_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl>SOURCETHM</attrlabl>
+				<attalias Sync="TRUE">SOURCETHM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl>X_COORD</attrlabl>
+				<attalias Sync="TRUE">X_COORD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>Y_COORD</attrlabl>
+				<attalias Sync="TRUE">Y_COORD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr><attrlabl Sync="TRUE">STATUS</attrlabl><attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr><attr><attrlabl Sync="TRUE">JOIN_ID</attrlabl><attalias Sync="TRUE">JOIN_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Appalachian National Scenic Trail</cntorg>
+					<cntper>Matthew C. Robinson</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 50</address>
+					<city>Harpers Ferry</city>
+					<state>West Virginia</state>
+					<postal>25425</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(304) 535-6278</cntvoice>
+				<cntfax>(304) 535-6270</cntfax>
+				<cntemail>Matt_Robinson@nps.gov</cntemail>
+				<hours>9-5 EST</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>This data set was developed to support the A.T. project and the mission and goals of the Appalachian Trail Conservancy and the National Park Service Appalachian Trail Park Office.</resdesc>
+		<distliab>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The Appalachian Trail Conservancy, the National Park Service Appalachian Trail Park Office, agency partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data are not legal documents and are not intended to be used as such. 
+
+The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent with the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. 
+
+The Appalachian Trail Conservancy and National Park Service give no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data be directly acquired from ATC or NPS and not indirectly through other sources that may have changed the data in some way. Although these data have been processed successfully on a computer system at both the Appalachian Trail Conference and the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>6.484</transize>
+					<dssize Sync="TRUE">0.012</dssize></digtinfo>
+			</digform>
+			<fees>None</fees>
+			<ordering>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</ordering>
+		</stdorder>
+		<custom>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</custom>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110801</metd>
+		<metrd>20110211</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Appalachian National Scenic Trail</cntorg>
+					<cntper>Matthew C. Robinson</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 50</address>
+					<city>Harpers Ferry</city>
+					<state>West Virginia</state>
+					<postal>25425</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(304) 535-6278</cntvoice>
+				<cntfax>(304) 535-6270</cntfax>
+				<cntemail>Matt_Robinson@nps.gov</cntemail>
+				<hours>9-5 EST</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{A5D1158F-07E7-4526-AC8E-FD9655DFB362}</MetaID><CreaDate>20110729</CreaDate><CreaTime>16113500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110801</SyncDate><SyncTime>10302300</SyncTime><ModDate>20110801</ModDate><ModTime>10302300</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">at_parking</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-84.194996</westBL><eastBL Sync="TRUE">-68.961081</eastBL><northBL Sync="TRUE">45.890806</northBL><southBL Sync="TRUE">34.637738</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-84.194996</westBL><eastBL Sync="TRUE">-68.961081</eastBL><northBL Sync="TRUE">45.890806</northBL><southBL Sync="TRUE">34.637738</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\INPAPPA122615\D$\ATGIS\Data\Trail\Features\at_parking.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.012</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="at_parking"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">452</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20110801</mdDateSt></metadata>
